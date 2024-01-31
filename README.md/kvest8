@@ -7,8 +7,8 @@ print("1 - Смутное время")
 print("2 - Период Петровских реформ")
 print("3 - Эпоха дворцовых переворотов")
 print("4 - Бунташное время")
-his = int(input())
-if his == 3:
+his = input()
+if his == "3":
     print("Правильно!")
     history += 1
 else:
@@ -17,8 +17,8 @@ print("XVIII век получил название:
 print("1 - Век просвещения")
 print("2 - Эпоха реформации")
 print("3 - Эпоха возрождения")
-his2 = int(input())
-if his2 == 1:
+his2 = input()
+if his2 == "1":
     history += 1
     print("Правильно!")
 else:
@@ -28,8 +28,8 @@ print("1 - 1857-1859")
 print("2 - 1899-1902")
 print("3 - 1871-1875")
 print("4 - 1861-1865")
-d = int(input())
-if d == 4:
+d = input()
+if d == "4":
     print("Правильно!")
     history += 1
 else:
@@ -39,8 +39,8 @@ print("1 - 1721")
 print("2 - 1731")
 print("3 - 1783")
 print("4 - 1791")
-his4 = int(input())
-if his4 == 3:
+his4 = input()
+if his4 == "3":
     print("Правильно!")
     history += 1
 else:
@@ -52,8 +52,8 @@ print("1 - при любой температуре")
 print("2 - при температуре кипения")
 print("3 - при определённой температуре для каждой жидкости")
 print("4 - при температуре выше 20 грдусов Цельсия")
-phys1 = int(input())
-if phys1 == 1:
+phys1 = input()
+if phys1 == "1":
     print("Правильно!")
     phys += 1
 else:
@@ -63,8 +63,8 @@ print("1 - отрицательно")
 print("2 - разноименно")
 print("3 - одноименно")
 print("4 - положительно")
-phys2 = int(input())
-if phys2 == 2:
+phys2 = input()
+if phys2 == "2":
     print("Правильно!")
     phys += 1
 else:
@@ -73,8 +73,8 @@ print("Сила тока вычисляется по формуле:(Закон 
 print("1 - R = U * I")
 print("2 - R = I/U")
 print("3 - R = U/I")
-phys3 = int(input())
-if phys3 == 3:
+phys3 = input()
+if phys3 == "3":
     print("Правильно!")
     phys += 1
 else:
@@ -83,8 +83,8 @@ print("Последний вопрос: Как изменяется давлен
 print("1 - не изменяется")
 print("2 - увеличивается")
 print("3 - уменьшается")
-phys4 = int(input())
-if phys4 == 2:
+phys4 = input()
+if phys4 == "2":
     print("Правильно!")
     phys += 1
 else:
